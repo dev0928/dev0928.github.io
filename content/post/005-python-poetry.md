@@ -33,7 +33,7 @@ Poetry can be added to the existing project using the `poetry init` command.
 - Run `poetry install` command to install existing project dependencies from the project folder. This will create the `poetry.lock` file containing exact library dependencies and should be checked into version control for replicating the project environment across various tiers.
 
 - Here are some of the commonly used commands
-```
+```Python
 # To add a new library to the project
 poetry add <library>
 
